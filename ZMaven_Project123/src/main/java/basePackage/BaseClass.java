@@ -8,7 +8,7 @@ public class BaseClass {
 	protected WebDriver driver;
 	
 	public void openBrowser() {
-		System.setProperty("webdriver.chrome.driver","G:\\5th march b batch\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\selenium\\chromedriver.exe");
 		
 		driver=new ChromeDriver();
 		
